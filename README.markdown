@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/slashdevslashop/slashdevslashop-kibana4.svg)](https://travis-ci.org/slashdevslashop/slashdevslashop-kibana4)
+
 #### Table of Contents
 
 1. [Overview](#overview)
