@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "slashdevslashop",
   "summary": "Puppet module to manage Kibana 4",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "source": "https://github.com/slashdevslashop/slashdevslashop-kibana4",
   "project_page": "https://github.com/slashdevslashop/slashdevslashop-kibana4",
   "issues_url": "https://github.com/slashdevslashop/slashdevslashop-kibana4/issues",
