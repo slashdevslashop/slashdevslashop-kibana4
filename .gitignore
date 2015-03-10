@@ -1,3 +1,4 @@
+.idea/
 .*.sw?
 pkg
 spec/fixtures
@@ -5,3 +6,5 @@ spec/fixtures
 .vagrant
 .bundle
 vendor
+log/
+modules/
