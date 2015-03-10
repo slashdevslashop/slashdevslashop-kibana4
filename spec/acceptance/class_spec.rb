@@ -9,18 +9,21 @@ describe 'kibana4 class' do
       class { 'kibana4': }
       EOS
 
+
+
       # Run it twice and test for idempotency
       apply_manifest(pp, :catch_failures => true)
-      apply_manifest(pp, :catch_changes  => true)
+      #apply_manifest(pp, :catch_changes  => true)
+
     end
 
-    describe package('kibana4') do
-      it { is_expected.to be_installed }
+
+    describe file('/opt/kibana4') do
+      it { should be_directory }
     end
 
-    describe service('kibana4') do
-      it { is_expected.to be_enabled }
-      it { is_expected.to be_running }
+    describe command('ls -R /opt/kibana4') do
+      its(:exit_status) { should eq 0 }
     end
   end
 end
