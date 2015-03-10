@@ -4,6 +4,10 @@
 # It sets variables according to platform.
 #
 class kibana4::params {
+
+  $version = "4.0.1"
+  $arch = "x64"
+
   case $::osfamily {
     'Debian': {
       $package_name = 'kibana4'
