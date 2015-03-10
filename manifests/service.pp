@@ -5,10 +5,4 @@
 #
 class kibana4::service {
 
-  service { $::kibana4::service_name:
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
-  }
 }
